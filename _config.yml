@@ -156,3 +156,10 @@ pjax:
   banUrl:          # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/xxx/'     
       # - '/xxx/' 
+
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$VfflH9Np3JfmULAXQQjgme.hcGgvMJa7p7bp5M4IhzjbZmI0LL2iO
+  secret: 1584691796@qq.com

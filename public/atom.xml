@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-17T01:28:18.455Z</updated>
+  <updated>2021-08-17T04:44:53.792Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,23 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>一瞬间的自我</title>
+    <title>胡言乱语之致郁系</title>
     <link href="http://example.com/2021/08/15/yi-shun-jian-de-zi-wo/"/>
     <id>http://example.com/2021/08/15/yi-shun-jian-de-zi-wo/</id>
-    <published>2021-08-15T15:24:50.000Z</published>
-    <updated>2021-08-17T01:28:18.455Z</updated>
+    <published>2021-08-15T15:24:00.000Z</published>
+    <updated>2021-08-17T04:44:53.792Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;一瞬间的自我&quot;&gt;&lt;a href=&quot;#一瞬间的自我&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;胡言乱语之致郁系&quot;&gt;&lt;a href=&quot;#胡言乱语之致郁系&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    
+    
+    <category term="致郁系" scheme="http://example.com/tags/%E8%87%B4%E9%83%81%E7%B3%BB/"/>
     
   </entry>
   

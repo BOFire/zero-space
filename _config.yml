@@ -7,13 +7,13 @@ title: Zero Space
 subtitle: ''
 description: '任尔东西南北风'
 keywords:
-author: 元鹏
+author: 沐汐
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://zero-space.vercel.app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -163,3 +163,6 @@ admin:
   username: admin
   password_hash: $2a$10$VfflH9Np3JfmULAXQQjgme.hcGgvMJa7p7bp5M4IhzjbZmI0LL2iO
   secret: 1584691796@qq.com
+
+preloader:
+  on: false

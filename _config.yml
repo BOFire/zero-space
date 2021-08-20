@@ -157,6 +157,10 @@ pjax:
       # - '/xxx/'     
       # - '/xxx/' 
 
+metadata:
+  author_id: defaultAuthorId
+  language: zh-CN
+
 
 # hexo-admin authentification
 admin:

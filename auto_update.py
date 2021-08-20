@@ -22,7 +22,7 @@ cmd=[
 for c in cmd :
     status = os.system(c)
     if status==0:
-        print("sucess!")
+        print("sucess===>{m}".format(m=c))
     else:
-        print("Run Error!")
+        print("Run Error===>{m}".format(m=c))
         break

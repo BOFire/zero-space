@@ -12,7 +12,7 @@ import datetime
 now=datetime.datetime.now()
 
 cmd=[
-    "hexo s",
+    # "hexo s",
     "hexo g",
     "git add .",
     "git commit -m 'update {time}'".format(time=str(now)),

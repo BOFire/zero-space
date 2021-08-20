@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>gunicorn</title>
+      <link href="/2021/08/20/gunicorn/"/>
+      <url>/2021/08/20/gunicorn/</url>
+      
+        <content type="html"><![CDATA[<h3 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h3><pre><code>Nginx =&gt; Gunicorn =&gt; Flask/Django</code></pre><h3 id="Gunicorn-介绍"><a href="#Gunicorn-介绍" class="headerlink" title="Gunicorn 介绍"></a>Gunicorn 介绍</h3><pre><code>gunicorn是一个python Wsgi http server，只支持在类Unix系统上运行，来源于Ruby的unicorn项目。Gunicorn使用prefork master-worker模型（在gunicorn中，master被称为arbiter），能够与各种wsgi web框架协作。</code></pre><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>pip3 install gunicorn</code></pre><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><pre><code>项目路径：gunicorn.conf</code></pre><h4 id="配置内容"><a href="#配置内容" class="headerlink" title="配置内容"></a>配置内容</h4><pre><code>server socketbind监听地址和端口。backlog服务器中在pending状态的最大连接数，即client处于waiting的数目。超过这个数目， client连接会得到一个error。建议值64-2048。worker 进程workersworker进程的数量。建议值2-4 x $(NUM_CORES)， 缺省为1。worker_classworker进程的工作方式。 有 sync, eventlet, gevent, tornado, gthread, 缺省值sync。threads工作进程中线程的数量。建议值2-4 x $(NUM_CORES)， 缺省值1。此配置只适用于gthread 进程工作方式， 因为gevent这种使用的是协程工作方式。worker_connections客户端最大同时连接数。只适用于eventlet， gevent工作方式。max_requestsworker重启之前处理的最大requests数， 缺省值为0表示自动重启disabled。主要是防止内存泄露。max_requests_jitter抖动参数，防止worker全部同时重启。timeout通常设为30。graceful_timeout接收到restart信号后，worker可以在graceful_timeout时间内，继续处理完当前requests。keepaliveserver端保持连接时间。securitylimit_request_linehttp request line最大字节数。值范围0-8190， 0表示无限制。limit_request_fieldhttp request中 header字段数的最大值。缺省为100，最大32768。limit_request_field_sizehttp request header字段最大字节数。0表示无限制。调试reload当代码有修改时，自动重启workers。适用于开发环境。reload_extra_files扩展reload配置，增加templates，configurations等文件修改监控。spew跟踪程序执行的每一行。check_config检查配置。server 机制sendfile系统底层拷贝数据方式，提供performance。chdir在app加载之前，进入到此目录。daemon应用是否以daemon方式运行。raw_envkey=value, 传递环境参数。pidfilepid存储文件路径。worker_tmp_dir临时工作目录。user指定worker进程的运行用户名。group指定worker进程运行用户所在组。umaskgunicorn创建文件的缺省权限。pythonpath附加到python path的目录列表。日志accesslog访问日志文件路径。access_log_format日志格式。 例如 %(h)s %(l)s %(u)s %(t)s &quot;%(r)s&quot; %(s)s %(b)s &quot;%(f)s&quot; &quot;%(a)s&quot; 。errorlog错误日志路径。loglever日志级别。debug, info, warning, error, critical.capture_output重定向stdout/stderr到error log file。logger_class日志实现类。缺省gunicorn.glogging.Logger 。logconfig日志配置文件。同python标准日志模块logging的配置。进程名proc_name设置进程名(setproctitle)，在ps，top等命令中会看到. 缺省值为default_proc_name配置。server钩子on_startingon_reloadwhen_readypre_forkpost_forkpost_worker_initworker_initworker_abortpre_execpre_requestpost_requestchild_exitworker-exitnworkers_changedon_exit</code></pre><h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><h4 id="指令运行"><a href="#指令运行" class="headerlink" title="指令运行"></a>指令运行</h4><pre><code>gunicorn gunicorn_demo:app</code></pre><h4 id="配置运行"><a href="#配置运行" class="headerlink" title="配置运行"></a>配置运行</h4><pre><code>gunicorn 工程名字.wsgi -c gunicorn配置文件夹/配置文件要改</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程序小记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python部署 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>胡言乱语之致郁系</title>
       <link href="/2021/08/15/yi-shun-jian-de-zi-wo/"/>
       <url>/2021/08/15/yi-shun-jian-de-zi-wo/</url>

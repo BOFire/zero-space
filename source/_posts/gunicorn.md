@@ -168,3 +168,8 @@ date: 2021-08-20 09:53:00
 	gunicorn gunicorn_demo:app
 #### 配置运行
 	gunicorn 工程名字.wsgi -c gunicorn配置文件夹/配置文件要改
+    
+### 备注
+
++ 如果用到异步的worker模型，需要安装对应的模块（如gevent）
++ 搭配supervisor进程管理

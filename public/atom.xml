@@ -6,7 +6,7 @@
   <link href="https://zero-space.vercel.app/atom.xml" rel="self"/>
   
   <link href="https://zero-space.vercel.app/"/>
-  <updated>2021-08-20T02:55:24.334Z</updated>
+  <updated>2021-08-20T07:48:54.432Z</updated>
   <id>https://zero-space.vercel.app/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>supervisor</title>
+    <link href="https://zero-space.vercel.app/2021/08/20/supervi/"/>
+    <id>https://zero-space.vercel.app/2021/08/20/supervi/</id>
+    <published>2021-08-20T06:38:49.000Z</published>
+    <updated>2021-08-20T07:48:54.432Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>gunicorn</title>
     <link href="https://zero-space.vercel.app/2021/08/20/gunicorn/"/>
     <id>https://zero-space.vercel.app/2021/08/20/gunicorn/</id>
     <published>2021-08-20T01:53:00.000Z</published>
-    <updated>2021-08-20T02:55:24.334Z</updated>
+    <updated>2021-08-20T06:38:10.027Z</updated>
     
     
       

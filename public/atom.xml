@@ -6,7 +6,7 @@
   <link href="https://zero-space.vercel.app/atom.xml" rel="self"/>
   
   <link href="https://zero-space.vercel.app/"/>
-  <updated>2021-08-20T07:48:54.432Z</updated>
+  <updated>2021-08-20T08:01:51.962Z</updated>
   <id>https://zero-space.vercel.app/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>supervisor</title>
     <link href="https://zero-space.vercel.app/2021/08/20/supervi/"/>
     <id>https://zero-space.vercel.app/2021/08/20/supervi/</id>
-    <published>2021-08-20T06:38:49.000Z</published>
-    <updated>2021-08-20T07:48:54.432Z</updated>
+    <published>2021-08-20T06:38:00.000Z</published>
+    <updated>2021-08-20T08:01:51.962Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="程序小记" scheme="https://zero-space.vercel.app/categories/%E7%A8%8B%E5%BA%8F%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+    <category term="python监控" scheme="https://zero-space.vercel.app/tags/python%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   

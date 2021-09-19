@@ -163,10 +163,10 @@ metadata:
 
 
 # hexo-admin authentification
-admin:
-  username: admin
-  password_hash: $2a$10$VfflH9Np3JfmULAXQQjgme.hcGgvMJa7p7bp5M4IhzjbZmI0LL2iO
-  secret: 1584691796@qq.com
+# admin:
+#   username: admin
+#   password_hash: $2a$10$VfflH9Np3JfmULAXQQjgme.hcGgvMJa7p7bp5M4IhzjbZmI0LL2iO
+#   secret: 1584691796@qq.com
 
 preloader:
   on: false
